@@ -32,6 +32,7 @@ function hideLoader() {
   quoteContainer.hidden = false;
 }
 
+//Initial Calls
 nextQuoteButton.addEventListener('click', getQuotes)
 twitterButton.addEventListener('click', goToTwitter)
 getQuotes();
